@@ -97,3 +97,5 @@
 // OR
 // echo 'Name: ' . $user->getName();
  ?>
+
+ <a href="$loginUrl">Facebook</a>
