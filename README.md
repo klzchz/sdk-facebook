@@ -6,5 +6,5 @@
 
 <h4>How Use ?</h4>
 <p>
-it's already done , just replace your informations on conde.
-Use the facebook docs to guide you. <a target="_blank" href="https://developers.facebook.com/docs/php/howto/example_facebook_login">Link Here</a> </p>
+it's already done , just replace your informations on code.
+Use the facebook docs to guide you. <a target="__blank" href="https://developers.facebook.com/docs/php/howto/example_facebook_login">Link Here</a> </p>
