@@ -74,12 +74,25 @@
 
 		}
 
-				try {
+			try {
 			  // Returns a `Facebook\FacebookResponse` object
 			  $response = $fb->get('/me?fields=name,picture,email');
 			  $user = $response->getGraphUser();
 			  // var_dump($user);
 			  // exit();
+			  //validação teste
+			 //   $result_usuario = "SELECT *FROM usuarios 
+			 //  					WHERE email = 
+			 //  					'".$user['email']."' LIMIT 1" ;
+				// $resultado_usuario = mysqli_query($conn, $result_usuario);
+
+				// if ($resultado_usuario) {
+				// 	$row_usuario = mysqli_fetch_assoc($resultado_usuario);
+				// 		$_SESSION['id'] = $row_usuario['id'];
+				// 		$_SESSION['name'] = $row_usuario['nome'];
+				// 		$_SESSION['email'] = $row_usuario['email'];
+				// 		header("Location: admin.php");
+				// 	}
 			} catch(Facebook\Exceptions\FacebookResponseException $e) {
 			  echo 'Graph returned an error: ' . $e->getMessage();
 			  exit;
