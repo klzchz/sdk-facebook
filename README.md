@@ -1,6 +1,6 @@
-This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app.
+<h2>This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app.<h2>
 
-Installation
+<h2>Installation<h2>
 The Facebook PHP SDK can be installed with Composer. Run this command:
 
 Download
